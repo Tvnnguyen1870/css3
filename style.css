@@ -1,0 +1,80 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section{
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: #fff;
+}
+
+.about-section h1{
+    padding: 0 0 20px;
+}
+
+.about-section p{
+    padding: 4px 0;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    margin: 8px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container > h2 {
+    font-size: 32px;
+    padding: 8px 0;
+}
+
+.container > p{
+    padding: 4px 0;
+}
+
+.title {
+    padding: 4px 0;
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+
+
